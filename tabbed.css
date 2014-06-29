@@ -1,0 +1,94 @@
+* { margin: 0; padding: 0;}  /* Super simple global CSS reset of default margin/padding on all elements */
+
+body {
+	background: url(./img/bkgd-tile1.jpg) repeat;
+}
+
+.pane {
+	background: white;
+	opacity: .7;	
+	font-family: sans-serif;
+}
+
+.rounded {
+	-webkit-border-radius: 40px 0 40px 0;
+	border-radius: 40px 0 40px 0;	
+}
+
+.rounded2 {
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+}
+
+
+.shadow {
+	-webkit-box-shadow: 3px 3px 12px 4px #777;
+	box-shadow: 3px 3px 12px 4px #777;	
+}
+
+.pressed {
+	-webkit-box-shadow:inset 2px 2px 8px 2px #333;
+	box-shadow:inset 2px 2px 8px 2px #333;
+}
+
+.hidden {
+	display:none;
+}
+
+.visible {
+	display:block;
+}
+
+header {
+	margin: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+header h1 { 
+	font-size: 3em;
+	margin: 5px 0;
+}
+
+
+
+/* unvisited link */
+nav a:link {
+    color: #000;
+}
+
+/* visited link */
+nav a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: red;
+}
+
+/* selected link */
+nav a:active {
+    color: blue;
+}
+
+
+nav {
+	margin-left: 20px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 15px 30px;
+	text-decoration: none;
+}
+
+#main {
+	margin: 10px 20px 20px 20px;
+	padding: 20px;
+	opacity: .8;
+}
+
+hr {
+	margin-top: 25px;
+}
