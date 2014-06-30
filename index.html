@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Tabbed Pane Exercise</title>
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link href="./tabbed.css" media="all" rel="stylesheet" type="text/css" />	
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="tabbed.js"></script>
+    <meta charset="utf-8">
+    <title>Tabbed Pane Exercise</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="./tabbed.css" media="all" rel="stylesheet" type="text/css" />   
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="tabbed.js"></script>
 </head>
 
 <body>
 
-	<header class="pane rounded shadow">
-		Welcome to
-		<h1>Medicinal Maven</h1>
-		<h3>Your Source for Natural Medicinal Herbs & ...</h3>
-		<p>A little thingy inspired by <a href="http://www.theodinproject.com/javascript-and-jquery/manipulating-the-dom-with-jquery" target="_blank">this Odin Project exercise</a> to flex some JS & JQuery to make a tabbed interface. </p>
-		<p>Implemented by <a href="http://afshin.herokuapp.com" target="_blank">Afshin Mokhtari</a>.
-		</p>
-	</header>
+    <header class="pane rounded shadow">
+        <h1>Medicinal Maven</h1>
+        <h3>Your Source for Natural Medicinal Herbs & ...</h3>
+        <p>A little thingy inspired by <a href="http://www.theodinproject.com/javascript-and-jquery/manipulating-the-dom-with-jquery" target="_blank">this Odin Project exercise</a> to flex some JS & JQuery to make a tabbed interface. </p>
+        <p>Implemented by <a href="http://afshin.herokuapp.com" target="_blank">Afshin Mokhtari</a>.
+        </p>
+    </header>
 
-	<nav>
-	    <a class="tab pane rounded pressed" href="#">Welcome</a>
-	    <a class="tab pane rounded shadow" href="#">Flowers</a>
-	    <a class="tab pane rounded shadow" href="#">Roots</a>    
-	    <a class="tab pane rounded shadow" href="#">Barks</a>
-	    <a class="tab pane rounded shadow" href="#">Minerals</a>
-	</nav>
+    <nav>
+        <a class="tab pane rounded pressed" href="#">Welcome</a>
+        <a class="tab pane rounded shadow" href="#">Flowers</a>
+        <a class="tab pane rounded shadow" href="#">Roots</a>    
+        <a class="tab pane rounded shadow" href="#">Barks</a>
+        <a class="tab pane rounded shadow" href="#">Minerals</a>
+    </nav>
 
-	<hr>
+    <hr>
 
-	<section id="main" class="pane rounded2 pressed">
-		<article id="welcome">
-			<h2>Welcome to this little sample page</h2>
-			<p>Exercising some HTML, CSS, and JQuery to make some tabbed panes.  
-			This is a little implementation for <strong>Project: Manipulating the DOM with jQuery</strong> from
-			<i>The Odin Project</i>.  
-			What's interesting is that I actually <i>am</i> a medicinal maven.  Specifically, I'm a licensed herbalist.
-			</p>
-			<img src="./img/herbs1.jpg" alt="some herbs" height="" width="">
-			<p>Some of the herbs pictured:  Astragulus, Cinnamon, Licorice, Ginseng, ...</p>
-		</article>
-		<article id="flowers" class="hidden">
-			<h2>Medicinal Flowers</h2>
-			<p>Generally speaking, flowers taken as herb tea have certain common actions:  they tend to effect
-			the upper and outer parts of the body, and they tend to effect moods.
-			</p>
-			<img src="./img/flowers.jpg" alt="some flowers" height="" width="">
-		</article>
-		<article id="roots" class="hidden">
-			<h2>Roots</h2>
-			<p>In many places on the planet the word roots is synonymous with medicine.</p>
-			<img src="./img/mortar.jpg" alt="some flowers" height="" width="">
-		</article>
-		<article id="barks" class="hidden">
-			<h2>Barks</h2>
-			<p>You get the idea...</p>
-		</article>
-		<article id="minerals" class="hidden">
-			<h2>Minerals</h2>
-			<p>The herbology practices by ancient Chinese, Indian, and African cultures incorporated all sorts of
-			natural substances besides just plant parts.  For example,  everything from salt to ... was used for
-			treating everything from the common cold, to heavy problems and especially cosmetic uses! 
-			</p>
-			<img src="./img/minerals.jpg" alt="some flowers" height="" width="">
-		</article>
-		<article id="contact" class="hidden">
-			<h2>Contact Us</h2>
-		</article>		
-	</section>
+    <section id="main" class="pane rounded2 pressed">
+        <article id="welcome">
+            <h2>Welcome to this little sample page</h2>
+            <p>Exercising some HTML, CSS, and JQuery to make some tabbed panes.  
+            This is a little implementation for <strong>Project: Manipulating the DOM with jQuery</strong> from
+            <i>The Odin Project</i>.  
+            What's interesting is that I actually <i>am</i> a medicinal maven.  Specifically, I'm a licensed herbalist.
+            </p>
+            <img src="./img/herbs1.jpg" alt="some herbs" height="" width="">
+            <p>Some of the herbs pictured:  Astragulus, Cinnamon, Licorice, Ginseng, ...</p>
+        </article>
+        <article id="flowers" class="hidden">
+            <h2>Medicinal Flowers</h2>
+            <p>Generally speaking, flowers taken as herb tea have certain common actions:  they tend to effect
+            the upper and outer parts of the body, and they tend to effect moods.
+            </p>
+            <img src="./img/flowers.jpg" alt="some flowers" height="" width="">
+        </article>
+        <article id="roots" class="hidden">
+            <h2>Roots</h2>
+            <p>In many places on the planet the word roots is synonymous with medicine.</p>
+            <img src="./img/mortar.jpg" alt="some flowers" height="" width="">
+        </article>
+        <article id="barks" class="hidden">
+            <h2>Barks</h2>
+            <p>You get the idea...</p>
+        </article>
+        <article id="minerals" class="hidden">
+            <h2>Minerals</h2>
+            <p>The herbology practices by ancient Chinese, Indian, and African cultures incorporated all sorts of
+            natural substances besides just plant parts.  For example,  everything from salt to ... was used for
+            treating everything from the common cold, to heavy problems and especially cosmetic uses! 
+            </p>
+            <img src="./img/minerals.jpg" alt="some flowers" height="" width="">
+        </article>
+        <article id="contact" class="hidden">
+            <h2>Contact Us</h2>
+        </article>      
+    </section>
 
-	<footer class="pane">
-	<p>(c) 2014 - All right wronged.</p>
-	</footer>
+    <footer class="pane">
+    <p>(c) 2014 - All right wronged.</p>
+    </footer>
 
 </body>
 </html>
